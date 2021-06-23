@@ -21,6 +21,19 @@
 //       return 10;
 //   }
 
+
+var cars = function (z) {
+
+  let cars =['kia','opel','hunda','BM']
+for (let i =0 ; i<=3 ;i++){
+if (z == cars[i])
+return 1 ;
+
+}
+return 0 ;
+
+}
+
   
 //   // func
 // };
@@ -72,17 +85,30 @@
 
 
 
-alert("And now our second part (guess question):")
+//second question ..
 
-for (let x = 0 ; x < 4 ; x++)
-{ 
-  let u = Number (prompt("guess how old am i ?"));
-if(u ==25){
-  alert("that is correct awnser");
-  break; 
-}else
- if (u <=22)
-   {alert("that is Too low ")}
-else if(u >= 27) {
-  alert("that is too high :P "); }
-};
+// alert("And now our second part (guess question):")
+
+// for (let x = 0 ; x < 4 ; x++)
+// { 
+//   let u = Number (prompt("guess how old am i ?"));
+// if(u ==25){
+//   alert("that is correct awnser");
+//   break; 
+// }else
+//  if (u <=22)
+//    {alert("that is Too low ")}
+// else if(u >= 27) {
+//   alert("that is too high :P "); }
+// };
+
+
+//third question..
+
+for (let i= 1; i<=6 ; i++){
+let user = prompt("guess one of my fav cars ? ")
+  if( cars (user) == 1){
+    i=7;
+    alert("correct awnser")
+  };
+}
