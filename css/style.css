@@ -1,18 +1,21 @@
+body{
+
+    background-color: #44EE50 ;
+}
+
+ol, ul {
+	list-style: decimal;
+}
 
 #white{
 
 color: black;
-background-color: coral;
+background-color: rgb(219, 199, 191);
 
 }
 
 .col{
 
-    background-color: burlywood;
+    background-color:rgb(219, 199, 191);
 
-}
-
-.col {
-
-background-color: chocolate;
-}
+};
