@@ -99,5 +99,5 @@ let user = prompt("guess one of my fav cars ? ").toLowerCase()
     i=7;
   }
 };
-alert("all the possible correct is : kia , hunda , bm , opel ");
+alert("all the possible correct is :yes , yes , no , no , yes , kia , hunda , bm , opel ");
 alert("ur all grade from 7 is :"+sum+"/7"); 
